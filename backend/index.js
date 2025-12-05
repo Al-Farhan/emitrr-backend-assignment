@@ -15,7 +15,10 @@ const io = new Server(httpServer, {
   cors: {
     origin:
       process.env.NODE_ENV === "production"
-        ? false
+        ? [
+            "https://fourinrow.vercel.app",
+            "https://fourinrow.farhanshaikh.life",
+          ]
         : [
             "http://localhost:5173",
             "http://127.0.0.1:5173",
