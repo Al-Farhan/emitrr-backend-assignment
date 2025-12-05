@@ -19,7 +19,7 @@ const io = new Server(httpServer, {
         : [
             "http://localhost:5173",
             "http://127.0.0.1:5173",
-            "https://fourinrow.vercel.app/",
+            "https://fourinrow.vercel.app",
             "https://fourinrow.farhanshaikh.life",
           ],
   },
